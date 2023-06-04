@@ -132,4 +132,4 @@ with gr.Blocks(css="style.css", title=title) as demo:
     run_btn.click(inference, [input_image, task, model_name, scale], [output_image])
     task.change(on_task_change, [task], [model_name])
 
-demo.queue(concurrency_count=4).launch(debug=True, share=True)
+demo.queue(concurrency_count=4).launch()
