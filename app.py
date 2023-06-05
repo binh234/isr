@@ -69,14 +69,6 @@ def on_task_change(task):
 
 
 title = "ISR: General Image Super Resolution"
-description = r"""Gradio demo for <a href='https://github.com/TencentARC/GFPGAN' target='_blank'><b>GFPGAN: Towards Real-World Blind Face Restoration with Generative Facial Prior</b></a>.<br>
-It can be used to restore your **old photos** or improve **AI-generated faces**.<br>
-To use it, simply upload your image.<br>
-If GFPGAN is helpful, please help to ⭐ the <a href='https://github.com/TencentARC/GFPGAN' target='_blank'>Github Repo</a> and recommend it to your friends 😊
-"""
-article = r"""
-<center><img src='https://visitor-badge.glitch.me/badge?page_id=akhaliq_GFPGAN' alt='visitor badge'></center>
-"""
 
 with gr.Blocks(css="style.css", title=title) as demo:
     with gr.Row(elem_classes=["container"]):
