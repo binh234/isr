@@ -2,7 +2,7 @@
 
 [![HuggingFace Space](https://img.shields.io/badge/%F0%9F%A4%97-HuggingFace%20Space-important.svg)](https://huggingface.co/spaces/dragonSwing/isr) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/binh234/isr/blob/main/notebooks/Super_Resolution.ipynb)
 
-Image Super Resolution
+Practical algorithms for real-world Image/Video restoration and Face restoration. It leverages rich and diverse priors encapsulated in a pretrained GAN (e.g., StyleGAN2) for image super resolution.
 
 ![demo](images/demo.png)
 ![demo2](images/demo2.png)
